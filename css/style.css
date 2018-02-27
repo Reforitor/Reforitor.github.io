@@ -1,0 +1,191 @@
+html, body{
+
+
+margin: 0;
+padding: 0;
+height: 100%;
+width:100% ;
+font-family: sans-serif;
+scroll-behavior: smooth;
+
+}
+	#slider
+{
+
+		background-image: url("../images/paraBG.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		height: 100%;
+		width: 100% ;
+		 : 1px solid red;
+		opacity: 1;
+}
+
+
+
+
+header
+{
+
+	float:top;
+	background-color: rgba(73, 73, 73, 0.6);
+	height: 150px;
+	width: 100%;
+	background-attachment: fixed;
+
+
+
+
+}
+
+
+
+
+
+#tagline
+{
+
+	height: 150 px;
+	 : 2px solid red;
+	
+	color: white;
+	font-size: 40px;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 40px;
+
+}
+
+#slogan
+{
+
+
+	 : 2px solid red;
+	
+	color: white;
+	font-size: 17px;
+	font-family: sans-serif;
+	text-align: center;
+	
+
+
+
+
+
+
+}
+
+
+
+ #topnav
+
+{
+
+
+	background-color: rgba(73, 73, 73, 0.6)	;
+	float: right;
+	height: 50px;
+	margin-top: 14px;
+	width: 100%;
+	text-align:  center;
+	text-transform: uppercase;
+	font-family: Trebuchet MS;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+
+
+}
+
+
+ #topnav a
+{
+
+
+	color: white;
+	 border-right: 1px solid black;
+	 border-left: 1px solid black;
+	padding: 3px;
+	margin: 1px;
+	
+
+}
+
+
+ #topnav a:hover {
+    background-color: rgba(25, 24, 24, 0.9);
+}
+
+.active{
+
+	background-color: rgb(25, 24, 24) ;
+
+	color: white;
+
+}
+
+i
+{
+
+	padding-top: 100px;
+
+	
+	color: white;
+	font-size: 90px;
+}
+
+
+#sbbutton{
+
+	margin-top:20%;
+	margin-left: 40%;
+	position: relative;
+
+
+}
+
+.btn {
+  background-color: rgba(50, 105, 193, 1);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}
+
+
+
+#footer
+{
+
+	width: 100%;
+	height: 70px;
+	padding-top: 10px;
+	background-color: rgba(38, 38, 38, 0.9);
+	margin-top: 44.11%;
+	position: absolute;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+
+
+}
+
+
+a
+{
+color: white;
+
+}
+
+a:hover
+{
+color: grey;
+
+}
